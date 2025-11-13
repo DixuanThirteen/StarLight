@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/StarLight/build",
+  "command": "c:\\mingw64\\bin\\g++.exe  @CMakeFiles/StarLight.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StarLight.dir\\src\\hello.cpp.obj -c C:\\StarLight\\src\\hello.cpp",
+  "file": "C:/StarLight/src/hello.cpp",
+  "output": "CMakeFiles/StarLight.dir/src/hello.cpp.obj"
+}
+]

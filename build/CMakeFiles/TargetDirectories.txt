@@ -1,2 +1,3 @@
+C:/StarLight/build/CMakeFiles/StarLight.dir
 C:/StarLight/build/CMakeFiles/edit_cache.dir
 C:/StarLight/build/CMakeFiles/rebuild_cache.dir

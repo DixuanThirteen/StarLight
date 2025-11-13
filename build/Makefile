@@ -115,6 +115,43 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named StarLight
+
+# Build rule for target.
+StarLight: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StarLight
+.PHONY : StarLight
+
+# fast build rule for target.
+StarLight/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StarLight.dir\build.make CMakeFiles/StarLight.dir/build
+.PHONY : StarLight/fast
+
+src/hello.obj: src/hello.cpp.obj
+.PHONY : src/hello.obj
+
+# target to build an object file
+src/hello.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StarLight.dir\build.make CMakeFiles/StarLight.dir/src/hello.cpp.obj
+.PHONY : src/hello.cpp.obj
+
+src/hello.i: src/hello.cpp.i
+.PHONY : src/hello.i
+
+# target to preprocess a source file
+src/hello.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StarLight.dir\build.make CMakeFiles/StarLight.dir/src/hello.cpp.i
+.PHONY : src/hello.cpp.i
+
+src/hello.s: src/hello.cpp.s
+.PHONY : src/hello.s
+
+# target to generate assembly for a file
+src/hello.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StarLight.dir\build.make CMakeFiles/StarLight.dir/src/hello.cpp.s
+.PHONY : src/hello.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... StarLight
+	@echo ... src/hello.obj
+	@echo ... src/hello.i
+	@echo ... src/hello.s
 .PHONY : help
 
 

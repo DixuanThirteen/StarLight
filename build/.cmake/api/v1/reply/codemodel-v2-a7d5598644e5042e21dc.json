@@ -8,8 +8,16 @@
 				{
 					"build" : ".",
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -20,10 +28,23 @@
 					[
 						0
 					],
-					"name" : "Project"
+					"name" : "StarLight",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "StarLight::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StarLight-Debug-a1571e74706c230c6f50.json",
+					"name" : "StarLight",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",
